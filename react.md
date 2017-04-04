@@ -29,6 +29,8 @@ A React component is a function or a class which optionally accepts input and re
 
 **What is JSX?**
 
+[JSX Live Compiler](https://jsbin.com/hajabex/2/edit?output)
+
 **When would you use a Class Component over a Functional Component?**
 
 If your component has state or a lifecycle method(s), use a Class component. Otherwise, use a Functional component.
