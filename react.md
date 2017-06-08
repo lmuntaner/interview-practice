@@ -63,7 +63,7 @@ AJAX requests should go in the componentDidMount lifecycle event.
 
 **What does shouldComponentUpdate do and why is it important?**
 
-What shouldComponentUpdate does is it's a lifecycle method that allows us to opt out of this reconciliation process for certain components.
+It's a lifecycle method that allows us to opt out of this reconciliation process for certain components.
 
 **What is the second argument that can optionally be passed to setState and what is its purpose?**
 
