@@ -2,6 +2,7 @@
 
 ### Practice for technical interview questions.
 
+- [How does this work?](how.md)
 - [General Programming](general_programming.md)
 - [JS Concepts](js_concepts.md)
 - [React](react.md)
@@ -11,6 +12,8 @@ Bibliography:
 
 - [10 Interview Questions Every JS Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.y007faw3g)
 - [React Interview Questions](https://dev.to/tylermcginnis/react-interview-questions)
+- [List of interviewing resources](https://gist.github.com/ronnieftw/7907630469242f0999ea)
+- My Evernote :)
 
 ### Coding related:
 
@@ -36,3 +39,7 @@ Again, maximum of 4.
 - [Farnam Street](https://www.farnamstreetblog.com/newsletter/)
 - [Ribbonfarm](https://www.ribbonfarm.com/about/)
 - [Nassim Nicholas Taleb on Medium](https://medium.com/@nntaleb)
+
+**Me in interviews**
+
+![me](http://www.smbc-comics.com/comics/20140817.png)
