@@ -7,7 +7,7 @@ A set of articles with explanations of how something work.
 - [What is REST?](rest.md)
 - [What is HTTP/2 Push?](https://jakearchibald.com/2017/h2-push-tougher-than-i-thought/)
 - [About Networking Protocols](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147)
-- What happens when a url is requested from the browser?[Short](https://www.quora.com/What-are-the-series-of-steps-that-happen-when-an-URL-is-requested-from-the-address-field-of-a-browser) and [long](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/) answer.
+- What happens when a url is requested from the browser? [Short](https://www.quora.com/What-are-the-series-of-steps-that-happen-when-an-URL-is-requested-from-the-address-field-of-a-browser) and [long](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/) answer.
 - [What is OAuth](https://blog.varonis.com/introduction-to-oauth/)
 - [What is an HTTP Request?](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/). This is an example using Node. However I think it's readable even without Node knowledge.
 - [What is CORS?](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
@@ -35,8 +35,8 @@ A set of articles with explanations of how something work.
 - [What is V8 or a Javascript engine?](https://www.youtube.com/watch?v=EdFDJANJJLs)
 - [What is WebAssembly?](https://www.smashingmagazine.com/2017/05/abridged-cartoon-introduction-webassembly/).
 - [How JavaScript Is Run In The Browser](https://www.smashingmagazine.com/2017/05/abridged-cartoon-introduction-webassembly/#how-javascript-is-run-in-the-browser)
-- [What is React Fiber?](https://www.youtube.com/watch?v=ZCuYPiUIONs). React Fiber is an ongoing reimplementation of React's core algorithm.
+- [What is React Fiber?](https://www.youtube.com/watch?v=ZCuYPiUIONs) React Fiber is an ongoing reimplementation of React's core algorithm.
 - [What is a Service Worker?](https://kosamari.com/notes/Service-Worker-what-are-you)
 - [What is the DOM](https://alistapart.com/article/javascript-for-web-designers)
 - [What is a Progressive Web App?](https://www.smashingmagazine.com/2016/09/the-building-blocks-of-progressive-web-apps/)
-- [How does browsers work?](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/). Long Read
+- [How does browsers work?](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) Long Read
