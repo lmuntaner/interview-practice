@@ -22,6 +22,7 @@ A set of articles with explanations of how something work.
 
 - [How machine memory works](https://hacks.mozilla.org/2017/06/a-crash-course-in-memory-management/)
 - [What is Big O](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)
+- [An Intro to Compilers](https://nicoleorchard.com/blog/compilers)
 
 ### Systems design
 
