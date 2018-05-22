@@ -7,7 +7,7 @@
 - [JS Concepts](js_concepts.md)
 - [React](react.md)
 - [Redux](redux.md)
-- [Check your IQ in a programming language or technology (ex: JS and React)[https://www.pluralsight.com/product/pluralsight-iq]
+- [Check your IQ in a programming language or technology (ex: JS and React)](https://www.pluralsight.com/product/pluralsight-iq)
 
 Bibliography:
 
