@@ -11,6 +11,7 @@ A set of articles with explanations of how something work.
 - [What is OAuth](https://blog.varonis.com/introduction-to-oauth/)
 - [What is an HTTP Request?](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/). This is an example using Node. However I think it's readable even without Node knowledge.
 - [What is CORS?](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+- [Why is CORS the way it is?](https://frontendian.co/cors)
 - [What is Request PreFlight?](https://m.alphasights.com/killing-cors-preflight-requests-on-a-react-spa-1f9b04aa5730)
 - [What is SSL Certificate?](https://www.youtube.com/watch?v=SJJmoDZ3il8)
 - [What is HTTPS?](https://www.youtube.com/watch?v=earzZpX-PiY)
