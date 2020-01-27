@@ -2,7 +2,7 @@
 
 A set of articles with explanations of how something work.
 
-### Networking
+## Networking
 
 - [What is REST?](rest.md)
 - [What is HTTP/2 Push?](https://jakearchibald.com/2017/h2-push-tougher-than-i-thought/)
@@ -19,19 +19,19 @@ A set of articles with explanations of how something work.
 - [What is a Public Key](https://www.youtube.com/watch?v=GSIDS_lvRv4)
 - [Do you need www in front of a url?](https://www.quora.com/Whats-the-technical-reason-you-needed-www-prefix-to-reach-a-website-but-it-seems-that-today-it-doesnt-matter)
 
-### Theoretical Concepts
+## Theoretical Concepts
 
 - [How machine memory works](https://hacks.mozilla.org/2017/06/a-crash-course-in-memory-management/)
 - [What is Big O](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)
 - [An Intro to Compilers](https://nicoleorchard.com/blog/compilers)
 - [JIT Compiler](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/)
 
-### Systems design
+## Systems design
 
 - [How to scale applications](http://blog.memsql.com/cache-is-the-new-ram/)
 - [What is a Serverless Architecture](https://martinfowler.com/articles/serverless.html)
 
-### Frontend Development
+## Frontend Development
 
 - [What is the JS Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 - [What is a Javascript engine?](http://developer.telerik.com/featured/a-guide-to-javascript-engines-for-idiots/)

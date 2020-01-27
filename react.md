@@ -1,9 +1,12 @@
 # React Questions
 
-From [this](https://dev.to/tylermcginnis/react-interview-questions) article.
+From [this](https://dev.to/tylermcginnis/react-interview-questions) article and others.
+
+**What is the virtual DOM?**
 
 **What is a High Order Component? Some use cases.**
 
+**Why ReactJS uses className over class attribute?**
 
 **What happens when you call setState?**
 
@@ -11,7 +14,7 @@ The first thing React will do when setState is called is merge the object you pa
 
 This will kick off a process called reconciliation.
 
-**What is the reconciliation process**
+**What is the reconciliation process.**
 
 The end goal of reconciliation is to, in the most efficient way possible, update the UI based on this new state.
 
@@ -40,6 +43,10 @@ If your component has state or a lifecycle method(s), use a Class component. Oth
 Refs are an escape hatch which allow you to get direct access to a DOM element or an instance of a component.
 
 **What are keys in React and why are they important?**
+
+There are classic diffing algorithms with O(n³) time complexity, which might be used for creating a tree of React elements. Those are not performant enough.
+
+Instead, React implements a heuristic O(n) algorithm with an assumption that the developer can hint at which child elements may be stable across different renders with a key prop.
 
 Keys are what help React keep track of what items have changed, been added, or been removed from a list.
 
@@ -82,3 +89,24 @@ this.setState((prevState, props) => {
 ```
 
 Nothing is wrong with it 🙂. It's rarely used and not well known, but you can also pass a function to setState that receives the previous state and props and returns a new state, just as we're doing above. And not only is nothing wrong with it, but it's also actively recommended if you're setting state based on previous state.
+
+**How React Event system is different from DOM event system?**
+
+Explain the Synthetic Event wrapper.
+
+Event object is reused.
+
+Returning `false` does not stop propagation.
+
+React doesn’t actually attach events to the child nodes themselves. React will listen to all events at the top level using a single event listener.
+
+This is good for performance and it also means that React doesn’t need to worry about keeping track of event listeners when updating the DOM.
+
+**How to prevent components from re-rendering?**
+
+There are different options:
+
+* `shouldComponentUpdate` method
+* `PureComponent` React Component
+* `React.memo` hoc
+
