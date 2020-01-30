@@ -34,10 +34,6 @@ A React component is a function or a class which optionally accepts input and re
 
 [JSX Live Compiler](https://jsbin.com/hajabex/2/edit?output)
 
-**When would you use a Class Component over a Functional Component?**
-
-If your component has state or a lifecycle method(s), use a Class component. Otherwise, use a Functional component.
-
 **What are refs in React?**
 
 Refs are an escape hatch which allow you to get direct access to a DOM element or an instance of a component.
@@ -58,15 +54,9 @@ A controlled component is a component where React is in control and is the singl
 
 An uncontrolled component is where your form data is handled by the DOM, instead of inside your React component.
 
-You use refs to accomplish this.
-
-**Which is the suggested React Way? Why?**
+**Which is the suggested React Way? Controlled or Uncontrolled components? Why?**
 
 It's typically recommended that you favor controlled components over uncontrolled components. The main reasons for this are that controlled components support instant field validation, allow you to conditionally disable/enable buttons, enforce input formats, and are more "the React way".
-
-**In which lifecycle event do you make AJAX requests and why?**
-
-AJAX requests should go in the componentDidMount lifecycle event.
 
 **What does shouldComponentUpdate do and why is it important?**
 

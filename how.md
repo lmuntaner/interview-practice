@@ -34,8 +34,7 @@ A set of articles with explanations of how something work.
 ## Frontend Development
 
 - [What is the JS Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-- [What is a Javascript engine?](http://developer.telerik.com/featured/a-guide-to-javascript-engines-for-idiots/)
-- [What is V8 or a Javascript engine?](https://www.youtube.com/watch?v=EdFDJANJJLs)
+- [What is V8 or a Javascript engine?](https://github.com/leonardomso/33-js-concepts#11-javascript-engines)
 - [What is WebAssembly?](https://www.smashingmagazine.com/2017/05/abridged-cartoon-introduction-webassembly/).
 - [How JavaScript Is Run In The Browser](https://www.smashingmagazine.com/2017/05/abridged-cartoon-introduction-webassembly/#how-javascript-is-run-in-the-browser)
 - [What is React Fiber?](https://www.youtube.com/watch?v=ZCuYPiUIONs) React Fiber is an ongoing reimplementation of React's core algorithm.

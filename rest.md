@@ -11,7 +11,7 @@ Let's try to put the concepts of REST in plain English. To do that, we're going 
 - Expose directory structure-like URIs.
 - Transfer XML, JavaScript Object Notation (JSON), or both.
 
-**Use HTTP Methods Explicitly**
+## Use HTTP Methods Explicitly
 
 This one's pretty straightforward. To retrieve data, you use GET. To create data, you use POST. To update or change data, you use PUT (not used in this tutorial). To delete data you use DELETE. So for example, this once-common approach is not a good one:
 
@@ -19,7 +19,7 @@ http://www.domain.com/myservice/newuser.php?newuser=bob
 
 That's an HTTP GET pretending to be a POST. You're GETting the web page and giving it data to store in a DB at the same time. Instead, create a NewUser service and POST to it.
 
-**Be Stateless**
+## Be Stateless
 
 This is a complicated concept but it boils down to “don't store state information on the server”. If you must save state, save it on the client side via cookies or other methods. A front-end framework like Angular (outside the scope of this tutorial, but stay tuned!) is particularly helpful here, as it creates an entire client-side MVC setup where you can save and manipulate the state of elements without hammering your server.
 
@@ -27,7 +27,7 @@ IBM gives a pagination example which is pretty good. A stateful design would hit
 
 I've put together a quick JSFiddle illustrating what I'm talking about. Take a look and note that we're never storing any page data on the “server” side. We merely take the current page value from the DOM, and then when we get our new page, we update the DOM. That's simple, stateless programming.
 
-**Expose directory structure-like URIs.**
+## Expose directory structure-like URIs
 
 This one's easy. Instead of:
 http://app.com/getfile.php?type=video&game=skyrim&pid=68
@@ -35,12 +35,12 @@ http://app.com/getfile.php?type=video&game=skyrim&pid=68
 You want:
 http://app.com/files/video/skyrim/68
 
-**Transfer XML, JavaScript Object Notation (JSON), or both.**
+## Transfer XML, JavaScript Object Notation (JSON), or both
 
 This one's easy too! Just make sure that your back-end is sending XML or JSON (I prefer JSON, especially in all-JavaScript setups like the one discussed in this tutorial). You can easily manipulate this data in your presentation layer without having to hit your servers, unless you need new data.
 
 OK … so do we get the basics of REST? It's pretty straightforward, really. You've probably already worked within systems that use it.
 
-**Bibligraphy**
+## Bibligraphy
 
 From [this](https://closebrace.com/tutorials/2017-03-02/creating-a-simple-restful-web-app-with-nodejs-express-and-mongodb) article.
